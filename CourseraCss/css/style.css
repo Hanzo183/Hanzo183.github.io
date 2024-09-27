@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+font-size:large;
+}
+header{
+background-color:salmon ;
+
+}
+nav{
+    background-color:aqua;
+}
+main{
+    background-color:aqua;
+    font-size: large;
+}
+footer{
+    background-color:aqua;
+    
+}
+li{
+    display:table-cell;
+    width: 40%;
+}
+p{
+    line-height: 70px;
+}
