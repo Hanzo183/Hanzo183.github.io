@@ -1,24 +1,16 @@
-nav a{
-    width:10%;
-background-color:greenyellow;
-}
-nav img{
-    width:10%;
-}
+.skip-to-content {
+    position: absolute;
+ top:-30px;/* Hide off-screen initially */
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.1s ease;
+  }
 
-nav{
-    
-    width:80%;
-    display: inline-block;
-    background-color: aquamarine;
-}
-.grid{
-    display: grid;
-grid-template-columns: 40% 40%;
-justify-content: center;
-align-items:end;
-row-gap:50%;
-}
-.grid img{
-    width:100%;
-}
+  .skip-to-content:focus{
+    top: 10px; /* Move into view when focused */
+    outline: #000;
+  }
